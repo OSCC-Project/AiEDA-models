@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+// option java_multiple_files = true;
+// option java_package = "io.grpc.examples.routeguide";
+// option java_outer_classname = "RouteGuideProto";
+// option objc_class_prefix = "RTG";
+
+package evaluate_dreamplace;
+
+// Interface exported by the server.
+service RemoteEnv {
+
+  rpc reset(Action) returns (Ret) {}
+
+  rpc step(Action) returns (Ret) {}
+
+  rpc episode_length(Number) returns (Number) {}
+
+  rpc macro_nums(Number) returns (Number) {}
+
+  rpc node_nums(Number) returns (Number) {}
+
+  rpc edge_nums(Number) returns (Number) {}
+
+  rpc set_log_dir(Number) returns (Ret) {}
+}
+
+message Action { int32 action = 1; }
+
+message Ret {
+  bytes macro_idx_to_place = 1;
+  bytes np_obs = 2;
+  bytes sparse_adj_i = 3;
+  bytes sparse_adj_j = 4;
+  bytes sparse_adj_weight = 5;
+  bytes action_mask = 6;
+  optional bytes reward = 7;
+  optional bytes done = 8;
+  optional string info = 9;
+}
+
+message Response {
+  bool flag = 1;
+  optional string info = 2;
+}
+
+message Number { int32 num = 1; }
+
+// python -m grpc_tools.protoc -I./ --python_out=. --pyi_out=. --grpc_python_out=. ./remote_env.proto

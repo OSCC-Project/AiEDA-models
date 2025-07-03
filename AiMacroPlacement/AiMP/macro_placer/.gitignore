@@ -1,0 +1,5 @@
+/workspace
+*pycache*
+*vscode*
+aifp/thirdparty
+# thrid_party/*

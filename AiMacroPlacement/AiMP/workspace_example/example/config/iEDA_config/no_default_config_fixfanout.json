@@ -1,0 +1,26 @@
+{
+    "file_path": {
+        "design_work_space": "./result/no",
+        "sdc_file": "./sdc/asic_top_ista.sdc",
+        "lib_files": [
+            "./lib/ccslib/S011HD1P_X32Y2D128_BW_SS_1.08_125.lib",
+            "./lib/ccslib/S011HD1P_X64Y4D32_BW_SS_1.08_125.lib",
+            "./lib/ccslib/S011HD1P_X32Y2D128_SS_1.08_125.lib",
+            "./lib/ccslib/S011HD1P_X128Y2D39_SS_1.08_125.lib",
+            "./lib/ccslib/S013PLLFN_v1.5.1_typ.lib",
+            "./lib/ccslib/SP013D3WP_V1p7_typ.lib",
+            "./lib/ccslib/scc011ums_hd_hvt_ss_v1p08_125c_ccs.lib",
+            "./lib/ccslib/scc011ums_hd_lvt_ss_v1p08_125c_ccs.lib",
+            "./lib/ccslib/scc011ums_hd_rvt_ss_v1p08_125c_ccs.lib"
+        ],
+        "lef_files": [
+            "path1",
+            "path2"
+        ],
+        "def_file": "path",
+        "output_def": "./result/no/ino_result.def",
+        "report_file": "./result/no/report.txt"
+    },
+    "insert_buffer": "BUFFD8BWP30P140LVT",
+    "max_fanout": 30
+}

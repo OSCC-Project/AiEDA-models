@@ -1,0 +1,58 @@
+{
+    "file_path": {
+        "design_work_space": "./result/to",
+        "sdc_file": "./sdc/asic_top_ista.sdc",
+        "lib_files": [
+            "./lib/ccslib/S011HD1P_X32Y2D128_BW_FF_1.32_-40.lib",
+            "./lib/ccslib/S011HD1P_X64Y4D32_BW_FF_1.32_-40.lib",
+            "./lib/ccslib/S013PLLFN_v1.5.1_min.lib",
+            "./lib/ccslib/SP013D3WP_V1p7_low_temp.lib",
+            "./lib/ccslib/scc011ums_hd_hvt_ff_v1p32_0c_ccs.lib",
+            "./lib/ccslib/scc011ums_hd_lvt_ff_v1p32_0c_ccs.lib",
+            "./lib/ccslib/scc011ums_hd_rvt_ff_v1p32_0c_ccs.lib"
+        ],
+        "lef_files": [
+            "path1",
+            "path2"
+        ],
+        "def_file": "path",
+        "output_def": "./result/to/ito_result.def",
+        "report_file": "./result/to/report.txt",
+        "gds_file": "./result/to/to.gds"
+    },
+    "setup_slack_margin": 0.0,
+    "hold_slack_margin": 0.4,
+    "max_buffer_percent": 0.2,
+    "max_utilization": 0.8,
+    "fix_fanout": false,
+    "optimize_drv": false,
+    "optimize_hold": false,
+    "optimize_setup": true,
+    "DRV_insert_buffers": [
+        "BUFFD4BWP30P140LVT",
+        "BUFFD8BWP30P140LVT",
+        "BUFFD16BWP30P140LVT"
+    ],
+    "setup_insert_buffers": [
+        "BUFFD4BWP30P140LVT",
+        "BUFFD8BWP30P140LVT",
+        "BUFFD16BWP30P140LVT"
+    ],
+    "hold_insert_buffers": [
+        "BUFFD1BWP40P140LVT",
+        "DEL150MD1BWP40P140LVT",
+        "DEL100MD1BWP40P140LVT",
+        "DEL075MD1BWP40P140LVT",
+        "DEL050MD1BWP40P140LVT",
+        "DEL025D1BWP40P140LVT",
+        "BUFFD1BWP40P140HVT",
+        "DEL150MD1BWP40P140HVT",
+        "DEL100MD1BWP40P140HVT",
+        "DEL075MD1BWP40P140HVT",
+        "DEL050MD1BWP40P140HVT",
+        "DEL025D1BWP40P140HVT"
+    ],
+    "number_passes_allowed_decreasing_slack": 5,
+    "rebuffer_max_fanout": 20,
+    "split_load_min_fanout": 8
+}

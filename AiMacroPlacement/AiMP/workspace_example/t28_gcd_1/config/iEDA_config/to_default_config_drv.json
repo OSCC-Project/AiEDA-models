@@ -1,0 +1,63 @@
+{
+    "file_path": {
+        "design_work_space": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to",
+        "sdc_file": "",
+        "lib_files": "",
+        "lef_files": "",
+        "def_file": "path",
+        "output_def": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/ito_result.def",
+        "report_file": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/report.txt",
+        "gds_file": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/to.gds"
+    },
+    "specific_prefix": {
+        "drv": {
+            "make_buffer": "drv_buffer_",
+            "make_net": "drv_net_"
+        },
+        "hold": {
+            "make_buffer": "hold_buffer_",
+            "make_net": "hold_net_"
+        },
+        "setup": {
+            "make_buffer": "setup_buffer_",
+            "make_net": "setup_net_"
+        }
+    },
+    "routing_tree": "flute",
+    "setup_target_slack": 0.0,
+    "hold_target_slack": 0.4,
+    "max_insert_instance_percent": 0.2,
+    "max_core_utilization": 0.8,
+    "fix_fanout": false,
+    "optimize_drv": true,
+    "optimize_hold": false,
+    "optimize_setup": false,
+    "DRV_insert_buffers": [
+        "BUFFD4BWP30P140LVT",
+        "BUFFD8BWP30P140LVT",
+        "BUFFD16BWP30P140LVT"
+    ],
+    "setup_insert_buffers": [
+        "BUFFD4BWP30P140LVT",
+        "BUFFD8BWP30P140LVT",
+        "BUFFD16BWP30P140LVT"
+    ],
+    "hold_insert_buffers": [
+        "BUFFD1BWP40P140LVT",
+        "DEL150MD1BWP40P140LVT",
+        "DEL100MD1BWP40P140LVT",
+        "DEL075MD1BWP40P140LVT",
+        "DEL050MD1BWP40P140LVT",
+        "DEL025D1BWP40P140LVT",
+        "BUFFD1BWP40P140HVT",
+        "DEL150MD1BWP40P140HVT",
+        "DEL100MD1BWP40P140HVT",
+        "DEL075MD1BWP40P140HVT",
+        "DEL050MD1BWP40P140HVT",
+        "DEL025D1BWP40P140HVT"
+    ],
+    "number_of_decreasing_slack_iter": 5,
+    "max_allowed_buffering_fanout": 20,
+    "min_divide_fanout": 8,
+    "optimize_endpoints_percent": 1.0
+}

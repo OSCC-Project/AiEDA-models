@@ -1,0 +1,5 @@
+/workspace
+*pycache*
+*vscode*
+results
+thrid_party/*

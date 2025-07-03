@@ -1,0 +1,14 @@
+*.so
+test
+results
+logs_tuner
+nohup.out
+hcg.lp
+vcg.lp
+*.def
+*.log
+*.pl
+include
+thirdparty
+unittest
+benchmarks

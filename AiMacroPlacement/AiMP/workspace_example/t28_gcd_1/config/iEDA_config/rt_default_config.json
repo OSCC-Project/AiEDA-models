@@ -1,0 +1,11 @@
+{
+    "RT": {
+        "-temp_directory_path": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/rt",
+        "-bottom_routing_layer": "M2",
+        "-top_routing_layer": "M7",
+        "-thread_number": "50",
+        "-enable_timing": "0",
+        "-output_csv": "0",
+        "-output_inter_result": "0"
+    }
+}

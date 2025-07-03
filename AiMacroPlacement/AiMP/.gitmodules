@@ -1,0 +1,12 @@
+[submodule "third_party/iEDA"]
+	path = third_party/iEDA
+	url = git@gitee.com:ieda-ipd/iEDA.git
+    branch = AI-EDA-dev
+[submodule "third_party/AutoDMP"]
+	path = third_party/AutoDMP
+	url = git@gitee.com:ieda-iai/AutoDMP.git
+    branch = ai-mp-dev
+[submodule "third_party/aieda"]
+	path = third_party/aieda
+	url = git@gitee.com:ieda-iai/AiEDA.git
+	branch = master

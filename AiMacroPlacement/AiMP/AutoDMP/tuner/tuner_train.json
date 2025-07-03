@@ -1,0 +1,56 @@
+{
+    "state": [
+        "cfgSearchFile",
+        "work"
+    ],
+    "tasklist": [
+        {
+            "state": "cfgSearchFile",
+            "multiobj": "1",
+            "min_points_in_model": 32,
+            "min_budget": 1,
+            "max_budget": 1,
+            "n_iterations": 200,
+            "n_workers": 1,
+            "n_samples": 64,
+            "congestion_ratio": 0.5,
+            "density_ratio": 0.5,
+            "num_pareto": 5,
+            "run_id": "0",
+            "run_args": {
+                "gpu": "",
+                "gpu_id": "",
+                "reuse_params": ""
+            },
+            "worker": "0",
+            "worker_id": 0,
+            "gpu_pool": [
+                -1
+            ]
+        },
+        {
+            "state": "work",
+            "multiobj": "1",
+            "min_points_in_model": 32,
+            "min_budget": 1,
+            "max_budget": 1,
+            "n_iterations": 200,
+            "n_workers": 1,
+            "n_samples": 64,
+            "congestion_ratio": 0.5,
+            "density_ratio": 0.5,
+            "num_pareto": 5,
+            "run_id": "0",
+            "run_args": {
+                "gpu": "1",
+                "gpu_id": "",
+                "reuse_params": ""
+            },
+            "worker": "1",
+            "worker_id": 1,
+            "gpu_pool": [
+                -1
+            ]
+        }
+    ]
+}

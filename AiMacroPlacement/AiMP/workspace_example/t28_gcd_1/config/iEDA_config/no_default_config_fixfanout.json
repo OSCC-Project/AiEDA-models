@@ -1,0 +1,20 @@
+{
+    "file_path": {
+        "design_work_space": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to",
+        "sdc_file": "xxx.sdc",
+        "lib_files": [
+            "xxx.lib",
+            "xxx.lib"
+        ],
+        "lef_files": [
+            "path1",
+            "path2"
+        ],
+        "def_file": "path",
+        "output_def": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/ito_result.def",
+        "report_file": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/report.txt",
+        "gds_file": "/data/project_share/dataset_baseline/gcd/workspace/output/iEDA/data/to/to.gds"
+    },
+    "insert_buffer": "BUFFD8BWP30P140LVT",
+    "max_fanout": 30
+}

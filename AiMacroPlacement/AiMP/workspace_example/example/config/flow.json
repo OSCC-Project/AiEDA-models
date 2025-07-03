@@ -1,0 +1,89 @@
+{
+    "eda_tool_option": [
+        "iEDA",
+        "innovus",
+        "PT"
+    ],
+    "step_option": [
+        "edi",
+        "floorplan",
+        "prePlace",
+        "place",
+        "CTS",
+        "route",
+        "eco"
+    ],
+    "state": [
+        "unstart",
+        "success",
+        "ongoing",
+        "imcomplete"
+    ],
+    "fpt_option": [
+        "on",
+        "off"
+    ],
+    "task_option": [
+        "run_eda",
+        "run_fpt"
+    ],
+    "task": "run_eda",
+    "flow": [
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "floorplan",
+            "step": "fixFanout",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "fixFanout",
+            "step": "place",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "place",
+            "step": "CTS",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "CTS",
+            "step": "optDrv",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "optDrv",
+            "step": "optHold",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "optHold",
+            "step": "legalization",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "legalization",
+            "step": "route",
+            "state": "unstart",
+            "fpt": "on"
+        },
+        {
+            "eda_tool": "iEDA",
+            "pre_step": "route",
+            "step": "filler",
+            "state": "unstart",
+            "fpt": "on"
+        }
+    ]
+}

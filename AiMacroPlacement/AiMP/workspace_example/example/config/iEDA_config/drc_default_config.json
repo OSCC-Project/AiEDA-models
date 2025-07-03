@@ -1,0 +1,18 @@
+{
+    "INPUT": {
+        "tech_lef_path": "./lef/scc011u_8lm_1tm_thin_ALPA/scc011u_8lm_1tm_thin_ALPA.lef",
+        "lef_paths": [
+            "./lef/scc011u_8lm_1tm_thin_ALPA/SP013D3WP_V1p7_8MT.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/S011HD1P_X64Y4D32_BW.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/scc011ums_hd_rvt.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/S013PLLFN_8m_V1_2_1.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/scc011ums_hd_lvt.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/scc011ums_hd_hvt.lef",
+            "./lef/scc011u_8lm_1tm_thin_ALPA/S011HD1P_X32Y2D128_BW.lef"
+        ],
+        "def_path": "./result/iRT_result.def"
+    },
+    "OUTPUT": {
+        "output_dir_path": "./result/drc"
+    }
+}

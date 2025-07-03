@@ -1,0 +1,14 @@
+{
+    "state": [
+        "unstart",
+        "success",
+        "ongoing",
+        "imcomplete"
+    ],
+    "tasklist": [
+        {
+            "task_name": "/home/huangzengrong/gitee/ai-mp/workspace/t28_gcd_1",
+            "state": "unstart"
+        }
+    ]
+}

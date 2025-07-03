@@ -1,0 +1,1 @@
+python run.py -f data/ispd2018/t1/8t1_inst_density_map.csv data/ispd2018/t1/8t1_pin_count_map.csv data/ispd2018/t1/8t1_bbox_congestion_map.csv -l data/ispd2018/t1/8t1_label.csv -m net
